@@ -2,25 +2,21 @@
 //  SecondViewController.swift
 //  Halal'oResto
 //
-//  Created by Kevin Grasset on 06/02/2018.
+//  Created by Kevin Grasset on 07/02/2018.
 //  Copyright © 2018 Sadok Ben Fredj. All rights reserved.
 //
 
 import UIKit
 
-
 class SecondViewController: UIViewController {
     
+   var message = String()
     
-    @IBOutlet weak var nomPlat1: UILabel!
-    override func viewDidLoad(nom: String) {
+    override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+         testLabel.text = message
         
-   
-        func changeLabel(nom: String) {
-            self.nomPlat1?.text = nom
-        }
         
         
     }
@@ -30,5 +26,6 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+  
     
 }
